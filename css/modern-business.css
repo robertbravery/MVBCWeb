@@ -56,7 +56,14 @@ header.carousel .fill {
     height: 300px;
     text-align: center;
 }
-
+.image-full {
+    background: no-repeat center center fixed; 
+    background-size: 100% 100%;   
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
+}
 .push-to-bottom {
   position: absolute;
   bottom: 20px;
