@@ -1,9 +1,7 @@
-
-    $(function(){
-
-        $('.carousel-control').click(function(e){
-            e.preventDefault();
-            $('#myCarousel').carousel( $(this).data() );
-        });
-
-    });//END document.ready
+function getYear() {
+    $('#copyrightdate').html(new Date().getFullYear());
+};
+$(function () {
+    //$("#header").load("header.html"); 
+    $("#footersection").load("footer.html");
+});
