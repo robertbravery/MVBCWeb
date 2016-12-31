@@ -1,7 +1,6 @@
 {
     "version": "0.2.0",
-    "configurations": [
-        {
+    "configurations": [{
             "type": "extensionHost",
             "request": "launch",
             "name": "Launch Extension",
@@ -14,6 +13,22 @@
                 "${workspaceRoot}/out/**/*.js"
             ],
             "preLaunchTask": "npm"
+        },
+        {
+            "name": "Chrome Launch localhost with sourcemaps",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:81/index.html",
+            "webRoot": "${workspaceRoot}",
+            "sourceMaps": true
+        },
+        {
+            "name": "Edge Launch localhost with sourcemaps",
+            "type": "edge",
+            "request": "launch",
+            "url": "http://localhost:81/index.html",
+            "webRoot": "${workspaceRoot}",
+            "sourceMaps": true
         }
     ]
 }
