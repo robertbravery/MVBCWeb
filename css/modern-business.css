@@ -53,6 +53,7 @@ header.carousel .fill {
     color: white;
     background-color: #000037;
     position: absolute;
+    margin-bottom: 30px;
 }
 
 .jumbotron {
@@ -93,6 +94,11 @@ header.carousel .fill {
     bottom: 20px;
 }
 
+.panel-image {
+    width: 140px;
+    height: auto;
+}
+
 
 /* ==========================================================================
    FOOTER SECTION
@@ -121,7 +127,8 @@ footer {
 
 /* Pricing Page Styles */
 
-.price {
+
+/*.price {
     display: block;
     font-size: 50px;
     line-height: 50px;
@@ -136,7 +143,9 @@ footer {
 .period {
     display: block;
     font-style: italic;
-}
+
+
+}*/
 
 
 /* Responsive Styles */
@@ -148,11 +157,32 @@ footer {
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:767px) {
     .img-portfolio {
         margin-bottom: 15px;
     }
     header.carousel .carousel {
         height: 70%;
+    }
+}
+
+@media(max-width:481px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+    .panel-image {
+        width: 100px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 12px;
     }
 }
