@@ -29,7 +29,7 @@ body {
 /* Home Page Carousel */
 
 header.carousel {
-    height: 50%;
+    height: 40%;
 }
 
 header.carousel .item,
@@ -150,39 +150,153 @@ footer {
 
 /* Responsive Styles */
 
+@media(max-width:1024px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+    img {
+        width: 140px;
+    }
+}
+
 @media(max-width:991px) {
     .customer-img,
     .img-related {
         margin-bottom: 30px;
     }
+    img {
+        width: 120px;
+    }
 }
 
-@media(max-width:767px) {
+@media(max-width:733px) {
     .img-portfolio {
         margin-bottom: 15px;
     }
+    img {
+        width: 70px;
+    }
     header.carousel .carousel {
-        height: 70%;
+        height: 60%;
+    }
+    .navbar li {
+        font-size: 11pt;
+    }
+    .navbar-brand {
+        font-size: 11pt;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    p {
+        font-size: 11px;
     }
 }
 
-@media(max-width:481px) {
+@media(max-width:769px) and (max-height:1025px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+    img {
+        width: 110px;
+    }
+    header.carousel .carousel {
+        height: 40%;
+    }
+    .navbar li {
+        font-size: 11pt;
+    }
+    .navbar-brand {
+        font-size: 11pt;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:640px) {
     .img-portfolio {
         margin-bottom: 15px;
     }
     .panel-image {
         width: 100px;
     }
-    h2 {
-        font-size: 24px;
+    header.carousel {
+        height: 50%;
     }
-    h3 {
+    img {
+        width: 85px;
+    }
+    h1 {
         font-size: 18px;
     }
-    h4 {
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
         font-size: 16px;
+    }
+    h4 {
+        font-size: 14px;
     }
     p {
         font-size: 12px;
     }
+}
+
+@media(max-width:466px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+    .panel-image {
+        width: 100px;
+    }
+    img {
+        width: 70px;
+    }
+    header.carousel {
+        height: 30%;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+
+.thumbnail_wrapper {
+    display: block;
+    vertical-align: middle;
 }
