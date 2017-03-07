@@ -45,6 +45,11 @@ header.carousel .fill {
     background-size: cover;
 }
 
+.paragraph-section {
+    margin-bottom: .8em;
+    margin-top: 2.2em;
+}
+
 .slogan {
     padding: 5px 10px;
     min-width: 100%;
