@@ -1,22 +1,18 @@
 <html lang="en">
 
-<head w3-include-html="head.xml">
-    <!--<script src="js/w3data.js "></script>-->
-    <script src="http://www.w3schools.com/lib/w3data.js "></script>
-    <script>
-        w3IncludeHTML();
-    </script>
+<head id="headersection">
+    <script src="js/w3data.js "></script>
+    <!--<script src="http://www.w3schools.com/lib/w3data.js "></script>-->
+
 </head>
 
-<title w3-include-html="indextitle.txt"></title>
-
 <body>
+    <title w3-include-html="indextitle.txt"></title>
 
-    <!-- NAVBAR
-================================================== -->
-    <nav w3-include-html="mainnav.html" class="navbar navbar-inverse navbar-fixed-top" role="navigation"></nav>
-    <!-- Carousel
-    ================================================== -->
+    <!-- NAVBAR ================================================== -->
+    <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation"></nav>
+    <!-- w3-include-html="mainnav.html" -->
+    <!-- Carousel ================================================== -->
     <header id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -121,14 +117,16 @@
         </div>
         <!-- /.row -->
     </div>
+    <footer id="footersection"></footer>
     <!-- /.container -->
-
-    <footer w3-include-html="footer.html" id="footersection"></footer>
     <script src="js/jquery.js "></script>
     <script src="js/mvbc.js "></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js "></script>
 
+    <script>
+        w3IncludeHTML();
+    </script>
 </body>
 
 </html>

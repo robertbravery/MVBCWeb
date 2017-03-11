@@ -5,9 +5,6 @@
     <title>Our Service</title>
     <!--<script src="js/w3data.js "></script>-->
     <script src="http://www.w3schools.com/lib/w3data.js "></script>
-    <script>
-        w3IncludeHTML();
-    </script>
 </head>
 
 <body>
@@ -45,16 +42,20 @@
 
     </div>
     <!-- Footer -->
-    <footer w3-include-html="footer.html" id="footersection"></footer>
+    <footer id="footersection"></footer>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script src="js/mvbc.js"></script>
-    <!--<script src="js/w3data.js"></script>
+    <!--<script src="js/w3data.js"></script>-->
     <script>
         w3IncludeHTML();
-    </script>-->
+    </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript ">
+        $("#footersection").load("footer.html");
+    </script>
+
 </body>
 
 </html>

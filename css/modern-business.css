@@ -303,5 +303,5 @@ footer {
 
 .thumbnail_wrapper {
     display: block;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
 }
